@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 projects[drupal][version] = 7.x
+defaults[projects][subdir] = contrib
+defaults[projects][destination] = "/sites/all/"
 ; Download the install profile and recursively build all its dependencies:
 projects[fserver_d7][type] = "profile"
 projects[fserver_d7][download][type] = "git"
