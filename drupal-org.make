@@ -15,7 +15,9 @@ projects[markdown][type] = module
 projects[strongarm][type] = module
 projects[url][type] = module
 projects[uuid][type] = module
-projects[services (>=3.4)Rest_server][type] = module
+projects[services] = module
+projects[services][version] >= 3.4
+projects[rest_server][type] = module
 projects[entity_token][type] = module
 projects[page_manager][type] = module
 projects[panels][type] = module
