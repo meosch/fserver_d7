@@ -21,6 +21,9 @@ projects[panels][type] = module
 projects[pathauto][type] = module
 projects[views][type] = module
 projects[views_linkarea][type] = module
+projects[libraries][type] = module
+projects[libraries][version] >=2.x
+projects[token][type] = module
 
 ; Custom (Github.com)
 projects[fserver][version] = 1.x
