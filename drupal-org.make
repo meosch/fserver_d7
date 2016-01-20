@@ -2,7 +2,6 @@ api = 2
 core = 7.x
 
 defaults[projects][subdir] = contrib
-defaults[projects][destination] = "/sites/all/"
 ; Drupal.org Contributed Modules
 projects[ctools][type] = module
 projects[ds][type] = module
