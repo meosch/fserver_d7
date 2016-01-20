@@ -17,7 +17,6 @@ projects[url][type] = module
 projects[uuid][type] = module
 projects[services] = module
 projects[services][version] >= 3.4
-projects[page_manager][type] = module
 projects[panels][type] = module
 projects[pathauto][type] = module
 projects[views][type] = module
