@@ -6,7 +6,11 @@ core = 7.x
 ; Drupal Core
 dependencies[] = block
 
-dependencies[fserver]
-dependencies[fserver_services]
-dependencies[fserver_ui]
-dependencies[profiler_builder]
+; Contrib
+
+
+; Custom
+dependencies[] = fserver
+dependencies[] = fserver_services
+dependencies[] = fserver_ui
+dependencies[] = profiler_builder
