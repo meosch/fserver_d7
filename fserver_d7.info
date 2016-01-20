@@ -3,6 +3,9 @@ distribution_name = WetKit
 description = Installation Profile created for the Web Experience Toolkit using Drupal WxT.
 core = 7.x
 
+; Drupal Core
+dependencies[] = block
+
 dependencies[fserver]
 dependencies[fserver_services]
 dependencies[fserver_ui]
