@@ -6,10 +6,46 @@ core = 7.x
 ; Drupal Core
 dependencies[] = block
 
-; Contrib
+; drupal.org Contributed modules
+; fserver dependencies
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = elements
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = field_validation
+dependencies[] = file
+dependencies[] = filehash
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = inline_entity_form
+dependencies[] = list
+dependencies[] = markdown
+dependencies[] = number
+dependencies[] = options
+dependencies[] = strongarm
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = url
+dependencies[] = uuid
+; fserver_services dependencies
+dependencies[] = fserver
+dependencies[] = services (>=3.4)
+dependencies[] = rest_server
+; fserver_ui dependencies
+dependencies[] = entity_token
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = fserver
+dependencies[] = page_manager
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_linkarea
 
-
-; Custom
+; Custom (Github.com)
 dependencies[] = fserver
 dependencies[] = fserver_services
 dependencies[] = fserver_ui
