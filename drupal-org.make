@@ -25,6 +25,10 @@ projects[views_linkarea][type] = module
 projects[libraries][type] = module
 projects[libraries][version] >=2.x
 projects[token][type] = module
+projects[profiler_builder][type] = module
+projects[ember_support][type] = module
+projects[navbar][type] = module
+projects[module_filter][type] = module
 
 ; Custom (Github.com)
 projects[fserver][version] = 1.x
@@ -34,7 +38,10 @@ projects[fserver][download][url] = "https://github.com/coldfrontlabs/fserver.git
 
 ; Themes
 projects[adminimal_theme][type] = theme
-projects[profiler_builder][type] = module
+projects[ember][type] = theme
+projects[zeropoint][type] = theme
+projects[zeropoint][version] = 4.x
+
 
 projects[open_framework][version] = 1.x
 projects[open_framework][type] = theme
