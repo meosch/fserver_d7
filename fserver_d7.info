@@ -1,4 +1,4 @@
-name = Feature Server D7
+name = Drupal 7 Feature Server
 distribution_name = fserver_d7
 description = Installation Profile to setup a Drupal 7 Features Server
 core = 7.x
