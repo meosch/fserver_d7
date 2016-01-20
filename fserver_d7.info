@@ -6,6 +6,9 @@ core = 7.x
 ; Drupal Core
 dependencies[] = block
 
+; Drupal.org Contributed Modules
+dependencies[] = views_ui
+
 ; Custom (Github.com)
 dependencies[] = fserver
 dependencies[] = fserver_services
