@@ -17,3 +17,10 @@ dependencies[] = fserver
 dependencies[] = fserver_services
 dependencies[] = fserver_ui
 dependencies[] = profiler_builder
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'ember'
+variables[theme_default] = 'bartik'
+variables[color_bartik_palette] = 'a:9:{s:3:"top";s:7:"#076bbf";s:6:"bottom";s:7:"#48e0e4";s:2:"bg";s:7:"#ffffff";s:7:"sidebar";s:7:"#f6f6f2";s:14:"sidebarborders";s:7:"#f9f9f9";s:6:"footer";s:7:"#292929";s:11:"titleslogan";s:7:"#fffeff";s:4:"text";s:7:"#3b3b3b";s:4:"link";s:7:"#0071B3";}'

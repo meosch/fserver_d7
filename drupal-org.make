@@ -47,4 +47,3 @@ projects[open_framework][version] = 1.x
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework.git"
-
