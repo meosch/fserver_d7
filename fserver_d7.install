@@ -30,7 +30,8 @@ function fserver_d7_install() {
   variable_set('admin_theme', $admin_theme);
   // activate admin theme when editing a node
   variable_set('node_admin_theme', '1');
-  variable_set('date_default_timezone', 'Europe/Zürich');
+  variable_set('date_default_timezone', 'Europe/Zurich');
+  variable_set('site_default_country', 'CH');
   $blocks = array(
     array(
       'module' => 'system',
