@@ -18,20 +18,3 @@ dependencies[] = fserver
 dependencies[] = fserver_services
 dependencies[] = fserver_ui
 dependencies[] = profiler_builder
-
-; ----------
-; Variables
-; ----------
-variables[admin_theme] = 'ember'
-variables[theme_default] = 'bartik'
-variables[date_default_timezone] = 'Europe/Zürich'
-variables[color_bartik_palette][top] = '#076bbf'
-variables[color_bartik_palette][bottom] = '#48e0e4'
-variables[color_bartik_palette][bg] = '#ffffff'
-variables[color_bartik_palette][sidebar] = '#f6f6f2'
-variables[color_bartik_palette][sidebarborders] = '#f9f9f9'
-variables[color_bartik_palette][footer] = '#292929'
-variables[color_bartik_palette][titleslogan] = '#fffeff'
-variables[color_bartik_palette][text] = '#3b3b3b'
-variables[color_bartik_palette][link] = '#0071B3'
-

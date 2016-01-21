@@ -7,7 +7,7 @@ function fserver_d7_install() {
   minimal_install();
     
   // Enable some meos_feature_server blocks.
-  $default_theme = 'bartik';
+  $default_theme = 'open_framework';
   $admin_theme = 'ember';
   // disable all themes
   db_update('system')
